@@ -28,5 +28,8 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
+The base case is n = 0 returns [0] when n is 1 it returns [0, 1]. When n > 1 when its called it will return the array with n-1 numbers and is calculated using the last 2 numbers calculated. So the pattern would be [0, 1...(n-2)+(n-1)]. So the invariant would be "While n>1, n will be the sum of the two previous numbers".
+
+
 code copied from my submission last semester.
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
