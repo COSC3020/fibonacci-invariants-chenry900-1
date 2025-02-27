@@ -27,3 +27,9 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+The base case is n = 0 returns [0] when n is 1 it returns [0, 1]. The next number will be the previous 2 numbers added together and that will be true for each recursive call. So my invarient would be "when n > 1 the next number will be F(n) = F(n-2) + F(n-1)".
+
+
+code copied from my submission last semester.
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
