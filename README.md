@@ -28,7 +28,7 @@ Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
 
-The base case is n = 0 returns [0] when n is 1 it returns [0, 1]. When n > 1 the number sequence will be the previous two numbers added together.
+The base case is n = 0 returns [0] when n is 1 it returns [0, 1]. So when n > 1 the next number will be F(n) = F(n-2) + F(n-1).
 
 
 code copied from my submission last semester.
